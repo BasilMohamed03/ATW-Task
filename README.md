@@ -1,5 +1,5 @@
 # ATW-Task
-1. Networking Concepts
+# 1. Networking Concepts
 
 ## IP Addresses 
 An **IP address** (Internet Protocol address) is a unique identifier assigned to devices on a network to enable them to communicate with each other. There are two types of IP addresses:
@@ -26,11 +26,11 @@ A **router** is a networking device that connects multiple networks, such as con
 - **OSPF (Open Shortest Path First)**: A link-state protocol that uses more complex algorithms to determine the best route based on network topology.
 - **BGP (Border Gateway Protocol)**: A path vector protocol used for routing between different autonomous systems on the internet.
 
-2. Deliverables
+# 2. Deliverables
 
 This outlines the steps I took to complete the ATW Task, which involves setting up a LAMP (Linux, Apache, MySQL, PHP) stack on an AWS EC2 instance and hosting a website on it. The website displays visitor data from a MySQL database.
 
-# LAMP Stack Setup using Ubuntu VM
+## LAMP Stack Setup using Ubuntu VM
 
 ## Overview
 This guide describes how I set up and configured the environment for the ATW task on a local Ubuntu virtual machine (VM), including the setup of MySQL, Apache, and the deployment of the PHP file (`index.php`).
@@ -88,7 +88,7 @@ Before starting, ensure you have:
 
 3. **Exit MySQL:**
 ```sql
-    EXIT;
+    exit;
    ```
 
 4. **Create the Database Schema:**
@@ -140,9 +140,9 @@ Before starting, ensure you have:
 
 ## 4. Test the Setup
 1. Open a browser and navigate to your VM's local IP address or `localhost`:
-  ```
+```
     http://localhost/index.php or http://192.168.117.128
-    ```
+   ```
 
 2. You should see the visitor data fetched from the MySQL database if everything is set up correctly.
 
@@ -150,13 +150,9 @@ Before starting, ensure you have:
 - If you encounter an issue where the database connection fails, check the Apache and MySQL logs for errors.
     - Apache error logs: `/var/log/apache2/error.log`
     - MySQL error logs: `/var/log/mysql/error.log`
-  
-## Troubleshooting
-- If you encounter an issue where the database connection fails, check the Apache and MySQL logs for errors.
-    - Apache error logs: `/var/log/apache2/error.log`
-    - MySQL error logs: `/var/log/mysql/error.log`
 
-# LAMP Stack Setup using AWS 
+
+## LAMP Stack Setup using AWS 
 
 ## Overview
 This guide describes how I set up and configured the environment for the ATW task on AWS EC2 virtual machine (VM), including the setup of MySQL, Apache, and the deployment of the PHP file (`index.php`).
