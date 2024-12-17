@@ -88,7 +88,7 @@ Before starting, ensure you have:
 
 3. **Exit MySQL:**
 ```sql
-    exit;
+    EXIT;
    ```
 
 4. **Create the Database Schema:**
@@ -140,9 +140,8 @@ Before starting, ensure you have:
 
 ## 4. Test the Setup
 1. Open a browser and navigate to your VM's local IP address or `localhost`:
-```
-    http://localhost/index.php or http://192.168.117.128
-   ```
+
+    (http://localhost/index.php) or (http://192.168.117.128)
 
 2. You should see the visitor data fetched from the MySQL database if everything is set up correctly.
 
