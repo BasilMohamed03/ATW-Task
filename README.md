@@ -9,6 +9,6 @@
        Install SSH client: sudo apt-get install openssh-server.
        Connect using: ssh user@<server-ip>.
 5. Deliverables
-       Ensure the website is publicly accessible at http://<your-domain> or [http://<public-ip>](http://192.168.117.128/).
+       Ensure the website is publicly accessible at Public_Local_Machine(http://192.168.117.128/) Public_AWS_Machine(http://3.86.105.116/).
        GitHub repo with source code and documentation.
        Submit the README.md with the GitHub link and public URL.
